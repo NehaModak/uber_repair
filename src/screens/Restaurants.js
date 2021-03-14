@@ -118,7 +118,7 @@ class Restaurants extends Component {
                     <div className="container bg-white p-3 px-0 mb-4" key={restaurantList[val].id}>
                         <div className="row">
                             <div className="col-lg-3 col-md-3 col-sm-12 px-0 text-center">
-                                <img style={{ width: "70%" }} alt="Natural Healthy Food" src={restaurantList[val].userProfileImageUrl} />
+                                <img style={{ width: "70%" }} alt="Original Service Longlasting Parts" src={restaurantList[val].userProfileImageUrl} />
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 px-0">
                                 <p>
@@ -132,7 +132,7 @@ class Restaurants extends Component {
                                     <small>(1) Review</small>
                                 </p>
                                 <h5 className="">{restaurantList[val].userName}</h5>
-                                <p className=""><small>Type of Foods: <span>{restaurantList[val].typeOfFood.join(', ')}</span></small></p>
+                                <p className=""><small>Type of Services or parts: <span>{restaurantList[val].typeOfFood.join(', ')}</span></small></p>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-12 py-4 px-0">
                                 <span style={{ display: 'inline-block', textAlign: 'center', borderRadius: '3px', border: '1px solid #dddddd', padding: '6px 7px 0px 7px', marginRight: '16px' }} ><FontAwesomeIcon icon="heart" className="text-success" /></span>
@@ -172,7 +172,7 @@ class Restaurants extends Component {
                                                 <small>(1) Review</small>
                                             </p>
                                             <h5 className="">{restaurantList[val].userName}</h5>
-                                            <p className=""><small>Type of Foods: <span>{restaurantList[val].typeOfFood.join(', ')}</span></small></p>
+                                            <p className=""><small>Type of Services or Parts: <span>{restaurantList[val].typeOfFood.join(', ')}</span></small></p>
                                         </div>
                                         <div className="col-lg-3 col-md-3 col-sm-12 py-4 px-0">
                                             <span style={{ display: 'inline-block', textAlign: 'center', borderRadius: '3px', border: '1px solid #dddddd', padding: '6px 7px 0px 7px', marginRight: '16px' }} ><FontAwesomeIcon icon="heart" className="text-success" /></span>
@@ -196,7 +196,7 @@ class Restaurants extends Component {
                     <div className="container bg-white p-3 px-0 mb-4" key={searchRestaurants[val].id}>
                         <div className="row">
                             <div className="col-lg-3 col-md-3 col-sm-12 px-0 text-center">
-                                <img style={{ width: "70%" }} alt="Natural Healthy Food" src={searchRestaurants[val].userProfileImageUrl} />
+                                <img style={{ width: "70%" }} alt="Original Servicing Longlasting Parts" src={searchRestaurants[val].userProfileImageUrl} />
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 px-0">
                                 <p>
@@ -210,7 +210,7 @@ class Restaurants extends Component {
                                     <small>(1) Review</small>
                                 </p>
                                 <h5 className="">{searchRestaurants[val].userName}</h5>
-                                <p className=""><small>Type of Foods: <span>{searchRestaurants[val].typeOfFood.join(', ')}</span></small></p>
+                                <p className=""><small>Type of services/parts: <span>{searchRestaurants[val].typeOfFood.join(', ')}</span></small></p>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-12 py-4 px-0">
                                 <span style={{ display: 'inline-block', textAlign: 'center', borderRadius: '3px', border: '1px solid #dddddd', padding: '6px 7px 0px 7px', marginRight: '16px' }} ><FontAwesomeIcon icon="heart" className="text-success" /></span>
@@ -260,37 +260,37 @@ class Restaurants extends Component {
                                             <li>
                                                 <div className="custom-control custom-checkbox">
                                                     <input type="checkbox" className="custom-control-input" id="apple-juice" name="Apple Juice" onChange={this.handleCategoriesCheckbox} />
-                                                    <label className="custom-control-label" htmlFor="apple-juice">Apple Juice</label>
+                                                    <label className="custom-control-label" htmlFor="apple-juice">Oil Servicing</label>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="custom-control custom-checkbox">
                                                     <input type="checkbox" className="custom-control-input" id="bbq" name="BB.Q" onChange={this.handleCategoriesCheckbox} />
-                                                    <label className="custom-control-label" htmlFor="bbq">BB.Q</label>
+                                                    <label className="custom-control-label" htmlFor="bbq">Body Parts.Q</label>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="custom-control custom-checkbox">
                                                     <input type="checkbox" className="custom-control-input" id="beef-roast" name="Beef Roast" onChange={this.handleCategoriesCheckbox} />
-                                                    <label className="custom-control-label" htmlFor="beef-roast">Beef Roast</label>
+                                                    <label className="custom-control-label" htmlFor="beef-roast">Engine Change</label>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="custom-control custom-checkbox">
                                                     <input type="checkbox" className="custom-control-input" id="chicken-roast" name="Chicken Roast" onChange={this.handleCategoriesCheckbox} />
-                                                    <label className="custom-control-label" htmlFor="chicken-roast">Chicken Roast</label>
+                                                    <label className="custom-control-label" htmlFor="chicken-roast">Gear Oil Check</label>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="custom-control custom-checkbox">
                                                     <input type="checkbox" className="custom-control-input" id="cheese-burger" name="Cheese Burger" onChange={this.handleCategoriesCheckbox} />
-                                                    <label className="custom-control-label" htmlFor="cheese-burger">Cheese Burger</label>
+                                                    <label className="custom-control-label" htmlFor="cheese-burger">Cleaning</label>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="custom-control custom-checkbox">
                                                     <input type="checkbox" className="custom-control-input" id="cold-coffee" name="Cold Coffee" onChange={this.handleCategoriesCheckbox} />
-                                                    <label className="custom-control-label" htmlFor="cold-coffee">Cold Coffee</label>
+                                                    <label className="custom-control-label" htmlFor="cold-coffee">Battery Operations</label>
                                                 </div>
                                             </li>
                                         </ul>
@@ -298,7 +298,7 @@ class Restaurants extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-7 col-sm-12">
-                                <h4 className="mb-3">Restaurant's Found</h4>
+                                <h4 className="mb-3">Repair Shop's Found</h4>
                                 <div className="container px-0">
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-4 px-0">
                                         {renderSearchRestaurants && this._renderSearchRestaurants()}
