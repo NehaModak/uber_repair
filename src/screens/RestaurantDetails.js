@@ -178,7 +178,7 @@ class RestaurantDetails extends Component {
                     <div className="container border-bottom pb-2 px-lg-0 px-md-0 mb-4" key={menuItemsList[val].id}>
                         <div className="row">
                             <div className="col-lg-2 col-md-3 col-8 offset-2 offset-lg-0 offset-md-0 px-0 mb-3 text-center">
-                                <img style={{ width: "70px", height: "70px" }} alt="Natural Healthy Food" src={menuItemsList[val].itemImageUrl} />
+                                <img style={{ width: "70px", height: "70px" }} alt="Original Longlasting Parts" src={menuItemsList[val].itemImageUrl} />
                             </div>
                             <div className="col-lg-7 col-md-6 col-sm-12 px-0">
                                 <h6 className="">{menuItemsList[val].itemTitle}</h6>
@@ -227,11 +227,11 @@ class RestaurantDetails extends Component {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-2 col-md-3 col-6 text-lg-center text-md-center pr-0 mb-2">
-                                        <img className="p-2 bg-white rounded text-center" alt="Natural Healthy Food" style={{ width: "60%" }} src={resDetails.userProfileImageUrl} />
+                                        <img className="p-2 bg-white rounded text-center" alt="Original Longlasting Parts" style={{ width: "60%" }} src={resDetails.userProfileImageUrl} />
                                     </div>
                                     <div className="col-lg-10 col-md-9 col-12 pl-lg-0 pl-md-0">
-                                        <h1 className="restaurant-title">{resDetails.userName}</h1>
-                                        <p className="restaurant-text">{resDetails.typeOfFood.join(', ')}</p>
+                                        <h1 className="Garage-title">{resDetails.userName}</h1>
+                                        <p className="Repair Shop/Garage-text">{resDetails.typeOfFood.join(', ')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -249,28 +249,28 @@ class RestaurantDetails extends Component {
                                     <div>
                                         <ul className="category-list">
                                             <li>
-                                                <p>Kebabs</p>
+                                                <p>Oil Servicing</p>
                                             </li>
                                             <li>
-                                                <p>Chicken</p>
+                                                <p>Engine Check</p>
                                             </li>
                                             <li>
-                                                <p>Burgers</p>
+                                                <p>Body Parts</p>
                                             </li>
                                             <li>
-                                                <p>Biryani</p>
+                                                <p>Cleaning</p>
                                             </li>
                                             <li>
-                                                <p>Sauces</p>
+                                                <p>Engine Parts</p>
                                             </li>
                                             <li>
-                                                <p>Vegatable Dishes</p>
+                                                <p>Power Window Operation</p>
                                             </li>
                                             <li>
-                                                <p>Garlic Bread</p>
+                                                <p>Power steering</p>
                                             </li>
                                             <li>
-                                                <p>Specials</p>
+                                                <p>More</p>
                                             </li>
                                         </ul>
                                     </div>
