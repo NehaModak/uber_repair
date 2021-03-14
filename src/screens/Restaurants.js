@@ -158,7 +158,7 @@ class Restaurants extends Component {
                                 <div className="container bg-white p-3 px-0 mb-4" key={restaurantList[val].id}>
                                     <div className="row">
                                         <div className="col-lg-3 col-md-3 col-sm-12 px-0 text-center">
-                                            <img style={{ width: "70%" }} alt="Natural Healthy Food" src={restaurantList[val].userProfileImageUrl} />
+                                            <img style={{ width: "70%" }} alt="Original Service Longlasting Parts" src={restaurantList[val].userProfileImageUrl} />
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-sm-12 px-0">
                                             <p>
